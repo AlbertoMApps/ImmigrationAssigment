@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">inmigrationform</string>
+    <string name="hint_name">Family Name</string>
+    <string name="hint_last">Last Name</string>
+    <string name="rdb1">Male</string>
+    <string name="rdb2">Female</string>
+    <string name="tv">Country</string>
+    <string name="tv2">Address</string>
+    <string name="tv3">Email ID</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnViewAll">View All</string>
+    <string name="btnDOB">DOB</string>
+    <string-array name="country">
+        <item>England</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Japan</item>
+    </string-array>
+
+<!--Toolbar menu options-->
+    <string name="action_btnOk">OK</string>
+    <string name="action_btnCancel">Cancel</string>
+    <string name="action_btnviewAll">View All</string>
+    <string name="action_settings">Settings</string>
+</resources>

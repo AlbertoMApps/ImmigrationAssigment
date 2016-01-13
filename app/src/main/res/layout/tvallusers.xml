@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context=".usersRecycleView">
+    <LinearLayout
+        android:id="@+id/usersData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        >
+     <!--Recycler view instead of ListView-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".usersRecycleView"
+            />
+    <!--ListView users before code
+        <ListView
+            android:id="@+id/lvAllUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Users data:"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:background="#B0B0B0"
+            android:layout_weight="0.07" />
+            android:background="@color/colorAccent"-->
+    </LinearLayout>
+
+</LinearLayout>
